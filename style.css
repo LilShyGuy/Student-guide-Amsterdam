@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(fotos/Poppins-Regular.ttf);
+}
+
+*{
+    font-family: 'Poppins', sans-serif ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 234, 226);
+    min-height: 100vh;
+  }
+
+h1{
+  padding: 1em;
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(161, 18, 111);  
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  padding-top: 1.5em;
+}
+
+
+p{
+    text-align: center;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    margin: 1em;
+}
+
+header{
+  display: flex;
+    position:fixed;
+    width: 100%;
+    z-index: 2; 
+    background-color: rgb(148, 131, 205);
+    height: 8vh;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+li{
+  font-size: larger;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 13vw;
+}
+
+iframe{
+  width: 100%;
+  height: 40vh;
+  border: 0;
+}
+
+footer{
+  background-color: rgb(148, 131, 205);
+  margin: 0;
+  margin-top: auto;
+  border: 0;
+  width: 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+footer p{
+  font-weight: lighter;
+}
+
+
+footer a{
+margin: 2em;
+text-decoration: none;
+  font-size: x-small;
+}
+
+.welcomepng{
+    height: 30vh;
+    width: auto;
+    background-color: rgb(160, 95, 108);
+    margin-top: 8vh;
+    background-image: url(fotos/Art.png);
+    background-size: cover;
+    background-position: center;
+    color: rgba(200, 0, 255, 0.681);
+}
+
+.lists{
+  font-size: smaller;
+  text-align: left;
+}
+
+.Art{
+  height: 25vh;
+    width: 25vh;
+    background-color: rgb(160, 95, 108);
+    background-image: url(fotos/aarrttss.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgba(200, 0, 255, 0.681);
+    border-radius: 100%;
+    border-color: rgb(148, 131, 205);
+
+}
+
+.Fashion{
+  height: 25vh;
+    width: 25vh;
+    background-color: rgb(160, 95, 108);
+    background-image: url(fotos/cc.JPG);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgba(200, 0, 255, 0.681);
+    border-radius: 100%;
+}
+    
+.collapsible {
+  background-color: rgb(191, 142, 222);
+  color: white;
+  cursor: pointer;
+  margin: 10vw;
+  margin-top: 1em;
+  margin-right: 10vw;
+  margin-bottom: 0.5em;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(251, 240, 145, 0.788);
+  color: black;
+}
+
+.content {
+  width: 70%;
+  margin: 10vw;
+  margin-top: 0;
+  margin-right: 10vw;
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.fashionpng{
+    height: 30vh;
+    width: auto;
+    background-color: rgb(160, 95, 108);
+    margin-top: 8vh;
+    background-image: url(fotos/cc.JPG);
+    background-size: cover;
+    background-position: center;  
+}
+
+.artpng{
+  height: 30vh;
+  width: auto;
+  background-color: rgb(160, 95, 108);
+  margin-top: 8vh;
+  background-image: url(fotos/arts.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.spotted img{
+  height: 20vh;
+  border-radius: 90%;
+}
+
+.borders{
+  background-color:rgba(230, 230, 230, 0.53);
+  border-radius: 25px;
+  padding: 3px;
+  margin: 1em;
+}
+
+.fotoplaceholder{
+  height: 16vw;
+  width: 16vw;
+  background-color: rgb(160, 95, 108);
+  border-radius: 100%;
+  margin: 1em;
+  text-align: center;
+  padding-top: 6px;
+}

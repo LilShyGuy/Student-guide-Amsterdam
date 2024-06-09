@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Art</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="Search.html"><img src="fotos/search.png" alt="search icon"></a></li>
+            <li><a href="index.html"><img src="fotos/UA.png" alt="Urban Amsterdam"></a></li>
+            <li><a href="menu.html"><img src="fotos/menu.png" alt="menu icon"></a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="artpng"><h1>Streetart</h1></div>
+        <button type="button" class="collapsible">History</button>
+        <div class="content">
+            <p>Amsterdam has always been a city of art.
+                But for the birth of street art, we will have
+                to travel back in time to the 20th century.
+                Amsterdam was a massive city for its time,
+                with the industrial revolution going at full
+                speed. This great technological and eco
+                nomic advance did, however, leave plenty of
+                poor neighbourhoods throughout Amsterdam.
+                 And in those neighbourhoods, we see
+                the first signs of street art, with texts being
+                written on the walls and squatters leaving
+                graffiti on houses and cars.
+                For street art, as we know it today, we will
+                have to flash forward to the latter half of the
+                20th century. Just like it was in the first half
+                of the century we see a rise in street art in the
+                poorer neighbourhoods of the city: areas like
+                the Pijp, the Jordaan, Osdorp and the Bijlmer.
+                And especially in those neighbourhoods a new
+                era of street art was ushered in, influenced by
+                American pop culture.
+                Graffiti groups like Osdorp Posse grew into
+                hip-hop icons and stores like Henxs Montana
+                Shop gained a cult following. The art became
+                more as we know it today, with big letters and
+                vibrant colours, as the artists started to take
+                more and more creative liberties.</p>
+        </div>
+
+        <button type="button" class="collapsible">Spotting</button>
+        <div class="content">
+            <p>Amsterdam is known as a city of
+                art and artists, but to enjoy Amsterdam's art,
+                one can also stray away
+                from the usual museums at the
+                Museumplein. The beauty of street
+                art is that it can be made on the
+                streets and with that possibility,
+                any street in particular.
+                Underneath the A10 motorway, on the
+                back of street signs and on the side
+                of buildings and factories. You can
+                also do a free street art tour through
+                Amsterdam. Use the Interactive map
+                from <a href="https://www.streetartcities.com">here</a> and 
+                discover many secret places without any
+                effort. Amsterdam is a city to explore.
+                So get out there and see for yourself!</p> 
+        </div>
+        <button type="button" class="collapsible">Foto's of what we spotted</button>
+                <div class="content">
+                    <div class="spotted">
+                         <img src="fotos/OX.jpeg" alt="great mural by Ox Alien"> 
+                         <p>A mural from Ox Alien at NDSM.</p>
+                         <img src="fotos/IMG_3053.png" alt="an graffiti throw up poste">
+                        <p>A throw up from Poste.</p>
+                         <img src="fotos/IMG_3054.png" alt="kamp seedorf piece">
+                        <p>A soccer player by Kamp Seedorf near central station.</p>
+                    </div>
+                </div>    
+        <button type="button" class="collapsible">Our artworks map</button>
+        <div class="content">
+            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1L8GxDqnVhD7xADAAvhcSBUGJbPTgf3U&ehbc=2E312F"></iframe>
+        </div>
+        <button type="button" class="collapsible">Taking you along works of our top 5 art works</button>
+        <div class="content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d19486.150298503024!2d4.8856307416925775!3d52.37461235635115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e2!4m5!1s0x47c609d14450bdcb%3A0xb503086fb00f8b86!2sTweede%20Nassaustraat%2018%2C%201052%20BN%20Amsterdam!3m2!1d52.382486!2d4.8784604!4m5!1s0x47c609c704433f5d%3A0x1fa769cd6460d212!2sGravenstraat%202%2C%201012%20NM%20Amsterdam!3m2!1d52.3743098!2d4.8930983!4m5!1s0x47c609c0e1b970bb%3A0xfce5ef8f1d0d0eaa!2sRokin%2070%2C%201012%20KW%20Amsterdam!3m2!1d52.3704937!2d4.8921895!4m5!1s0x47c609096cb897c5%3A0x1edbc68030e84ec6!2sJacob%20Bontiusplaats%201%2C%201018%20LL%20Amsterdam!3m2!1d52.371976599999996!2d4.9264922!4m5!1s0x47c6090c9e873729%3A0xea72e37706d111bb!2sZeeburgerpad%205%2C%201018%20AH%20Amsterdam!3m2!1d52.366938399999995!2d4.9278526!5e0!3m2!1snl!2snl!4v1674126987792!5m2!1snl!2snl"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul class="footer"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="streetart.html">Art</a></li>
+                <li><a href="fashion.html">Fashion</a></li>
+                <li><a href="https://www.streetartcities.com">StreetArtCities</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
